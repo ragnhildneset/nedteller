@@ -1,0 +1,53 @@
+body {
+    background-color: #262626;
+    color: #ffffff;
+}
+
+main {
+  width:50%;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+output {
+  font-size: 70px;
+  font-family: system-ui;
+  margin: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.buttons button {
+  width: 29%;
+  height: 70px;
+  margin: 2%;
+  align-self: center;
+  background-color: #262626;
+  border-color: white;
+  color: white;
+  font-size: 30px;
+}
+
+.startbutton {
+  background-color: #fd5158;
+  border-color: #fd5158;
+  font-size: 30px;
+  color: white;
+  margin: 30px;
+  width: 60%;
+  height: 80px;
+}
+
+.startbutton:hover {
+  background-color: #262626;
+  cursor: pointer;
+}
+
+.startbutton:focus {
+  background-color: #262626;
+}
